@@ -1,0 +1,62 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+	border-radius: 5px;
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	min-width: 500px;
+}
+
+h1 {
+	text-align: center;
+	padding: 0;
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.calculator {
+	max-height: 100vh;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+.input div {
+	font-size: large;
+	display: grid;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.input label {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.input input {
+	font-weight: bold;
+	border: 2px solid lightgrey;
+	padding: 13px 20px;
+}
+
+.input input:invalid {
+	border: 2px solid red
+}
+
+.submit input {
+	background-color: black;
+	color: white;
+	padding: 15px 0px;
+	margin-top: 40px;
+	border: black;
+}
+
+.output {
+	text-align: center;
+	font-size: x-large;
+	margin-top: 40px;
+}
